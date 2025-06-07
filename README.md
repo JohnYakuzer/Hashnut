@@ -24,3 +24,39 @@ Install dependencies with:
 ```bash
 pip install -r requirements.txt
 
+---
+## Installation Linux
+
+- clone the repo
+```bash
+git clone https://github.com/JohnYakuzer/Hashnut.git
+cd hashnut/hashnut_main
+
+- perform chmod
+```bash
+chmod +x hashnut install.sh
+
+-run the command for more info
+```bash
+hashnut --help
+
+---
+## Installation Windows
+
+- clone the repo
+```bash
+git clone https://github.com/JohnYakuzer/Hashnut.git
+cd hashnut/hashnut_main
+
+- run the provided PowerShell install script:
+```bash
+./win_install.ps1
+
+-this script will copy hashnut.bat to %USERPROFILE%\bin and add that directory to your User PATH environment variable
+
+-restart your terminal or log off/on to apply the PATH changes
+
+-run the command for more info
+```bash
+hashnut --help
+
